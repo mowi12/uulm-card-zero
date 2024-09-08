@@ -9,9 +9,9 @@
 #include <gui/modules/variable_item_list.h>
 #include <notification/notification.h>
 #include <notification/notification_messages.h>
-#include "skeleton_app_icons.h"
+#include "uulm_card_zero_icons.h"
 
-#define TAG "Skeleton"
+#define TAG "UUlmCardZero"
 
 // Change this to BACKLIGHT_AUTO if you don't want the backlight to be continuously on.
 #define BACKLIGHT_ON 1
@@ -485,7 +485,7 @@ static void skeleton_app_free(SkeletonApp* app) {
  * @param      _p  Input parameter - unused
  * @return     0 - Success
 */
-int32_t main_skeleton_app(void* _p) {
+int32_t main_uulm_card_zero_app(void* _p) {
     UNUSED(_p);
 
     SkeletonApp* app = skeleton_app_alloc();
